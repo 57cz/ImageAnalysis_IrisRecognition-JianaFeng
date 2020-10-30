@@ -8,14 +8,12 @@ Based on the LiMa epaper, we implement the project about Iris Recognition. For t
 Tables are below following: 
 
 (1):CRR table
-
-｜Similartiy measure｜Original feature set(%)｜Reduced feature set(%)｜
-｜--｜--｜--｜
-｜L1 distance measure｜61.34｜85.41｜
-｜L2 distance measure｜55.32｜86.80｜
-｜Cosine similarity measure｜50.00｜89.12｜
-
-                      Correct recognition rate (%)
+|Correct recognition rate (%)|
+|Similartiy measure|Original feature set(%)|Reduced feature set(%)|
+|--|--|--|
+|L1 distance measure|61.34|85.41|
+|L2 distance measure|55.32|86.80|
+|Cosine similarity measure|50.00|89.12|
 
 
 (2):FMR/FNMR table
@@ -27,11 +25,12 @@ False Match and False Nonmatch Rates with Different Threshold Values
       0.472          0.00122111                0.184757
       0.502          0.0007043                 0.219736
 
----------------------------------------------------------
 
-1. Explain the whole logic of design(The whole procedure)
 
-1.1 IrisLocalization.py
+Explain the whole logic of design(The whole procedure)
+------
+
+1.1 ‘IrisLocalization.py’
 
 (a):First, we try to estimate the rough position of the center of pupil by means of summing the projection of a subimage(120*120) and find the minimum
 (b):Then,take rough estimate from step1 to be the center, make a new subimage(120*120).Do the same proccessing as step1 and find the new estimate of center of pupil and also estimate the radius of pupil by means of  area calculation
@@ -75,9 +74,8 @@ False Match and False Nonmatch Rates with Different Threshold Values
 (c):Save the preprocessed dataframe
 (d):Train the model and ouput the results 
 
-
----------------------------------------------------------
-2. Limitation and improvement 
+Limitation and improvement 
+-------
 
 2.1 The highest CRR of our project is 89.12%, which is less than 90%. By adjusting the Irislocalization and IrisNOrmalization, we may get the higher CRR. Or we can try to take a different dimension on feature vector for better performance.
 2.2 The method we use is out of date.Nowadays, most iris recognition problems could be soved by DL,especially CNN.Like EfficientNet from Google could achieve much higher CRR in much larger dataset. 
