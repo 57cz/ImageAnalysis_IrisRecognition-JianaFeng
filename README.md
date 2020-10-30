@@ -8,23 +8,23 @@ Based on the LiMa epaper, we implement the project about Iris Recognition. For t
 Tables are below following: 
 
 (1):CRR table
-|Correct recognition rate (%)|
-|--|--|--|
-|Similartiy measure|Original feature set(%)|Reduced feature set(%)|
-|--|--|--|
-|L1 distance measure|61.34|85.41|
-|L2 distance measure|55.32|86.80|
-|Cosine similarity measure|50.00|89.12|
+
+|Similartiy measure|Reduced feature set(%)|
+|--|--|
+|L1 distance measure|85.41|
+|L2 distance measure|86.80|
+|Cosine similarity measure|89.12|
 
 
 (2):FMR/FNMR table
 
-False Match and False Nonmatch Rates with Different Threshold Values
-  Threshold    False match rate    False non-match rate
------------  ------------------  ----------------------
-      0.446          0.0022387                 0.165295
-      0.472          0.00122111                0.184757
-      0.502          0.0007043                 0.219736
+ False Match and False Nonmatch Rates with Different Threshold Values
+ 
+ |Threshold|False match rate|False non-match rate|
+ |--|--|--|
+ |0.446|0.0022387 |0.165295|
+ |0.472|0.00122111|0.184757|
+ |0.502|0.0007043|0.219736|
 
 
 
