@@ -9,6 +9,7 @@ Tables are below following:
 
 (1):CRR table
 |Correct recognition rate (%)|
+|--|--|--|
 |Similartiy measure|Original feature set(%)|Reduced feature set(%)|
 |--|--|--|
 |L1 distance measure|61.34|85.41|
