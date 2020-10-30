@@ -7,14 +7,16 @@ Based on the LiMa epaper, we implement the project about Iris Recognition. For t
 
 Tables are below following: 
 
+(1):CRR table
 
-(1):CRR table 
+｜Similartiy measure｜Original feature set(%)｜Reduced feature set(%)｜
+｜--｜--｜--｜
+｜L1 distance measure｜61.34｜85.41｜
+｜L2 distance measure｜55.32｜86.80｜
+｜Cosine similarity measure｜50.00｜89.12｜
+
                       Correct recognition rate (%)
-Similartiy measure           Original feature set(%)    Reduced feature set(%)
--------------------------  -------------------------  ------------------------
-L1 distance measure                          61.3426                   85.4167
-L2 distance measure                          55.3241                   86.8056
-Cosine similarity measure                    50                        89.1204
+
 
 (2):FMR/FNMR table
 
