@@ -4,12 +4,11 @@ This is to implement project based on LiMa essay. Iris Recognition is useful for
 
 
 Based on the LiMa epaper, we implement the project about Iris Recognition. For the identification mode, we got pretty good CRR for all three measures(all higher than 85%). And for the verification mode, we got the FMR/FNMR table and the ROC curve. 
-Figures on ROC vurve and CRR for different ddimensions are included in ZW2605_JF3283_IrisRecognition.zip. 
+
 Tables are below following: 
 
-(1):CRR table 
 
-           Recognition Result Using Different Similarity Measures
+(1):CRR table 
                       Correct recognition rate (%)
 Similartiy measure           Original feature set(%)    Reduced feature set(%)
 -------------------------  -------------------------  ------------------------
